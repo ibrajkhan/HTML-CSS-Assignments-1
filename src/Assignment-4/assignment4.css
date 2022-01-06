@@ -151,9 +151,9 @@ footer li {
   margin: 0 25px;
   font-size: 38px;
 }
-footer li img {
+/* footer li img {
   width: 40px;
-}
+} */
 footer li:hover {
   color: rgb(44, 42, 42);
   cursor: pointer;
