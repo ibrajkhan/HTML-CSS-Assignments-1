@@ -1,7 +1,169 @@
 /* Our CSS file. */
 
+.container,
+.content {
+  width: 100%;
+  height: 100%;
+}
 
-.container, .content {
-width: 100%;
-height: 100%;
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+header {
+  height: auto;
+  width: 100%;
+  background-color: rgb(84, 223, 228);
+  background-image: linear-gradient(
+    to right,
+    rgb(84, 223, 228),
+    rgb(33, 156, 160)
+  );
+  height: 18vh;
+  border-top: rgb(116, 109, 109) 2px solid;
+  border-bottom: rgb(116, 109, 109) 2px solid;
+}
+.logo {
+  display: inline-block;
+}
+.logo img {
+  width: 85px;
+  padding-top: 13px;
+  margin-left: 50px;
+}
+.nav {
+  float: right;
+  margin-right: 60px;
+  margin-top: 35px;
+}
+.nav ul li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 19px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: wheat;
+}
+.nav ul li a:hover {
+  color: rgb(44, 42, 42);
+  font-weight: bold;
+  cursor: pointer;
+}
+section#hero {
+  background-image: url("./images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align: center;
+  height: 80vh;
+}
+#hero h1 {
+  font-size: 30px;
+  padding-top: 25px;
+  padding-left: 50px;
+}
+#hero img {
+  border-radius: 50%;
+  border: 2px solid rgb(40, 176, 180);
+  display: block;
+  margin-left: 40.5%;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+#hero .btn {
+  color: rgb(40, 176, 180);
+  background-color: wheat;
+  text-decoration: none;
+  border: 2px solid rgb(40, 176, 180);
+  padding: 10px 25px;
+  border-radius: 0.5em;
+  position: relative;
+  left: 20px;
+}
+#hero .btn:hover {
+  color: wheat;
+  background-color: rgb(40, 176, 180);
+  font-weight: bold;
+}
+.three-col h3 {
+  font-size: 20px;
+  color: rgb(40, 176, 180);
+  margin-top: 50px;
+}
+.three-col {
+  width: 30%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin: 0 10px;
+}
+.three-col img {
+  border-radius: 50%;
+  border: 2px solid rgb(40, 176, 180);
+  height: 200px;
+  width: 200px;
+  margin: 25px 0;
+}
+.three-col .btn {
+  background: wheat;
+  border: 2px solid rgb(40, 176, 180);
+  color: #3f8da7;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 0.5em;
+}
+.three-col .btn:hover {
+  background: rgb(40, 176, 180);
+  color: wheat;
+}
+.three-col p {
+  margin-bottom: 30px;
+  width: 90%;
+  margin-left: 20px;
+  text-align: justify;
+}
+.three-dogs {
+  padding-left: 80px;
+}
+footer {
+  background-image: linear-gradient(
+    to right,
+    rgb(84, 223, 228),
+    rgb(33, 156, 160)
+  );
+  color: white;
+  margin-top: 40px;
+  padding: 30px 0;
+  text-align: center;
+}
+footer ul {
+  margin: 20px 0;
+}
+footer h4 {
+  font-size: 18px;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 25px;
+  font-size: 38px;
+}
+/* footer li img {
+  width: 40px;
+} */
+footer li:hover {
+  color: rgb(44, 42, 42);
+  cursor: pointer;
+}
+.link {
+  color: white;
+  font-size: 15px;
+}
+
+.link:hover {
+  color: rgb(44, 42, 42);
+  font-weight: bold;
 }
